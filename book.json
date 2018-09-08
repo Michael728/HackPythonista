@@ -1,5 +1,7 @@
 {
   "gitbook": "3.2.3",
+  "language": "zh",
+  "description": "Michael翔技术栈NoteBook",
   "plugins": ["disqus@0.1.0"],
   "pluginsConfig": {
     "disqus": {
