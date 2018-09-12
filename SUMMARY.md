@@ -22,5 +22,4 @@
     * [VS Code](tools/vscode.md)
     * [Pycharm](tools/Pycharm.md)
 * [结束](end/README.md)
-* [结束](end/README.md)
 
