@@ -2,11 +2,22 @@
   "gitbook": "3.2.3",
   "language": "zh",
   "description": "Michael翔技术栈NoteBook",
-  "plugins": ["disqus@0.1.0"],
+  "plugins": [
+    "disqus@0.1.0",
+    "anchor-navigation-ex",
+    "-lunr",
+    "-search",
+    "search-pro-kui"
+  ],
   "pluginsConfig": {
     "disqus": {
       "shortName": "HackPythonista"
+    },
+    "anchor-navigation-ex": {
+      "isShowTocTitleIcon": true,
+      "tocLevel1Icon": "fa fa-hand-o-right",
+      "tocLevel2Icon": "fa fa-hand-o-right",
+      "tocLevel3Icon": "fa fa-hand-o-right"
     }
   }
 }
-
