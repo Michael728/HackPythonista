@@ -120,3 +120,4 @@ GitHub：https：//github.com/soimort/you-get
 ## 参考
 - [哪些 Python 库让你相见恨晚？](https://www.zhihu.com/question/24590883/answer/286407918)
 - [2018年GitHub最流行50大Python开源项目](https://www.ctocio.com/ccnews/27611.html)
+- [Python 3 Module of the Week](https://pymotw.com/3/index.html)
