@@ -22,5 +22,6 @@
     * [VS Code](tools/vscode.md)
     * [Pycharm](tools/Pycharm.md)
     * [常用工具](tools/often.md)
+    * [软技能](tools/soft_skills.md)
 * [结束](end/README.md)
 

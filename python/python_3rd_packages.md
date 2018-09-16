@@ -3,8 +3,12 @@
 ## 队列
 
 ### collections
+
 - collections.OrderDict
 - collections.defaultdict
+
+## 数据库相关
+
 
 ## itertools
 
@@ -56,9 +60,16 @@ python2和python3通用性兼容性封装，openstack中使用，强烈推荐
 ## 时间模块相关
 
 ### arrow
+
 - [Python：如何用一行代码获取上个月是几月](https://foofish.net/python-arrow.html)
 
+### pendulum
+
 ### Delorean
+
+### REF
+
+- [6 个 Python 的日期时间库](http://python.jobbole.com/89178/)
 
 ## 开发工具
 
@@ -116,8 +127,9 @@ GitHub：https：//github.com/rg3/youtube-dl
 
 GitHub：https：//github.com/soimort/you-get
 
-
 ## 参考
+
 - [哪些 Python 库让你相见恨晚？](https://www.zhihu.com/question/24590883/answer/286407918)
+- [8 个用于业余项目的优秀 Python 库](http://python.jobbole.com/89287/)
 - [2018年GitHub最流行50大Python开源项目](https://www.ctocio.com/ccnews/27611.html)
 - [Python 3 Module of the Week](https://pymotw.com/3/index.html)
