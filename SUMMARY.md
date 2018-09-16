@@ -21,5 +21,6 @@
     * [Vim](tools/vim.md)
     * [VS Code](tools/vscode.md)
     * [Pycharm](tools/Pycharm.md)
+    * [常用工具](tools/often)
 * [结束](end/README.md)
 
