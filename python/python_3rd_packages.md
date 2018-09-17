@@ -9,7 +9,6 @@
 
 ## 数据库相关
 
-
 ## itertools
 
 ## operator
@@ -19,42 +18,57 @@
 Remark，做Python PPT工具。
 
 ## six
+
 python2和python3通用性兼容性封装，openstack中使用，强烈推荐
 
 ## requests
+
 建议掌握
 
 ## eventlet
+
 协程的经典，下层使用的greenlet，建议掌握
 
 ## greenlet
+
 非常高效的协程封装，想了解协程机制的话，可以深入学习
 
 ## pycrypto 安全
+
 提供了几乎所有的加解密算法，下层使用的是cryptograph，建议做基本了解
 
 ## SQLAlchemy
+
 对SQL语句的封装，建议概念了解
 
 ## Mock
+
 测打桩，建议掌握
 
 ## Unittest
+
 建议掌握
 
 ## Multiprocessing
+
 多进程，建议基本了解，工作中不常用
 
 ## Threading
+
 多线程，建议掌握，不建议使用thread(thread在python3中变为内部库_thread)
 
 ## Queue
+
 多进程/多线程队列按序执行的场景，基本了解
 
 ## Subprocess
+
 用于创建新进程，可用于python调用shell/bash等，建议掌握。python调用shell/bash不建议os.system/commands.*（这些方式在python3已经移除）。
 
+- [cookbook-执行外部命令并获取它的输出](https://python3-cookbook.readthedocs.io/zh_CN/latest/c13/p06_executing_external_command_and_get_its_output.html)
+
 ## Profile/cProfile
+
 用于性能分析，非常非常好用，和pstat配合食用，建议掌握。
 
 ## 时间模块相关

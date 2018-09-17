@@ -17,6 +17,8 @@
     * [MySQL](db/mysql.md)
     * [MongoDB](db/mongo.md)
     * [Redis](db/redis.md)
+* [计算机基础知识](computer/README.md)
+    * [计算机基础](computer/computr_basic.md)
 * [工具](tools/README.md)
     * [Git](tools/git.md)
     * [Vim](tools/vim.md)
