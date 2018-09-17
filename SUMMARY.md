@@ -3,6 +3,7 @@
 * [前言](README.md)
 * [Python知识点](python/README.md)
     * [Python资料](python/python_resource.md)
+    * [Python小知识](python/python_summary.md)
     * [常用标准库](python/python_packages.md)
     * [常用三方库](python/python_3rd_packages.md)
     * [GIL](python/python_gil.md)
