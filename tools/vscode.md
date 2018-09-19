@@ -171,6 +171,7 @@ VS Code扩展商店：https://marketplace.visualstudio.com/vscode
 ### 开发扩展
 
 - AutoFileNmae:auto complete file name，自动补全文件的名字
+- autoDocstring: 生成python的docstring，`ctrl+shift+2`。
 - [code runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner):`ctrl+alt+n`
 - Guides:显示代码对其辅助线
 - gitlens:显示代码每一行的最新修改人
