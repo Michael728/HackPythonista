@@ -11,3 +11,4 @@
 
 - [豆瓣工程师-python2017年度榜单-董伟明](https://annual2017.pycourses.com/)
 - [知乎工程师-python-web-guide](https://python-web-guide.readthedocs.io/zh/latest/index.html#)
+- [阿里工程师-如何学Python](https://www.kawabangga.com/how-to-learn-python#comment-22161)
