@@ -2,16 +2,19 @@
 
 控制台运行 vimtutor 这是 vim 官方实操教程
 三种模式：
+
 - 一般模式
 - 编辑模式
 - 命令行模式
 
 ## 光标的移动
 ### 单词级
+
 - w or W 向移动到下一单词开头  ★★
 - b or B 向左移动到单词开头	★★
 
 ### 块级
+
 - `gg`文档第一行，相当于1G 	★★★
 - `G`文档最后一行,`<n>G`移动到你n行    ★★
 - `0`或`home`到行首（第1列）	★★
@@ -88,8 +91,8 @@ vim 中可以使用` %` 对 `( `和 `)`，`[` 和 `]`，`{ `和 `}` 进行匹配
 -  `:%s/search>/<replace>/` 查找search内容并替换为replace内容，正则表达来替换，这个命令可以消除所有行位多余的空格：`:%s/\s\+$//`	★★★
 - `<n1>,<n2>s/word1/word2/gc` n1/n2都是数字，在`n1`行和`n2`行之间寻找`word1`，替换为`word2`。`c`代表`confirm`，替换前需要你确认，不加就默认全部替换。`n2`用`$`表示时，表示搜索到最后一行。★★★
 
-
 ### 撤销、重做
+
 - `u` 撤销	★★★
 - `ctrl-r` 重做 ★★★
 - `.` 重复前一个操作的意思 ★★★
@@ -127,6 +130,7 @@ set expandtab """缩进时将 tab 制表符转换为空格
 filetype on """开启文件类型检测
 syntax on """开启语法高亮
 ```
+
 关于vim的配置，还可以看[强大的vim配置文件，让编程更随意](http://www.cnblogs.com/ma6174/archive/2011/12/10/2283393.html)
 
 
@@ -139,11 +143,13 @@ vim有一个特殊的命令`.`，你可以用它重复执行上一个命令。�
 
 ## 分屏与标签页
 ### 分屏方式
+
 - `:split` 缩写`sp` or `ctrl-w s`上下分屏
 - `:vsplit` 缩写`vs` or `ctrl-w v`左右分屏
 - `:diffsplit` 缩写`:diffs` diff模式打开一个分屏，后面可以加上{filename}
 
 ### 窗口跳转
+
 - `ctrl-w w` 激活下一个窗口
 - `ctrl-w j` 激活下方窗口
 - `ctrl-w k` 激活上方窗口
@@ -214,6 +220,7 @@ call plug#end()
 ```
 
 ### vim-plug常用命令
+
 常用命令
 |命令	|说明|
 |-----|-----|
@@ -224,15 +231,19 @@ call plug#end()
 |PlugStatus|查看已安装插件的状态|
 
 ### 怎么使用这些命令呢？
+
 直接`vim`之后，进入冒号的命令模式，输入上述命令就可以执行命令了。
 
 ## FAQ
-### Q:配置VIM，安装vim-plug插件之后，想要生效通过`source ~/.vimrc`命令生效配置，就会报错：`E492: Not an editor command: Plug`
+
+### Q1:配置VIM，安装vim-plug插件之后，想要生效通过`source ~/.vimrc`命令生效配置，就会报错：`E492: Not an editor command: Plug`
+
 ```
 [root@localhost ~]# source .vimrc
 -bash: .vimrc: line 2: syntax error near unexpected token `('
 -bash: .vimrc: line 2: `call plug#begin('~/.vim/plugged')'
 ```
+
 A：- [error while running “source .vimrc”](https://stackoverflow.com/questions/21651114/error-while-running-source-vimrc)
 原因是，我们`.vimrc`本身并不是shell文件，而`source ~/.vimrc`等价于`./.vimrc`，当然后校验shell语法了。看了StackOverflow上的解答才清楚的。
 - 可以通过输入`$vim`直接进入vim的命令模式，执行下面命令
@@ -246,22 +257,20 @@ A：- [error while running “source .vimrc”](https://stackoverflow.com/questi
 :so $MYVIMRC
 ```
 
-### Q:从Win上复制文件时，常常因为换行符出错：
+### Q2:从Win上复制文件时，常常因为换行符出错：
+
 ```
 :set fileformat=unix
 ```
+
 A：
 linux的文件换行符为`\n`，但windows却非要把`\r\n`作为换行符，所以，vim在解析从windows拷贝到linux的的vimrc时，因为遇到无法解析的\r，所以报错。
+
 - [vim E492: Not an editor command: ^M(使用VIM打开文件一直提示错误)](http://blog.csdn.net/yin_pengpeng/article/details/51674064)
 
-
-
-
-
-
-
-
 ## 参考
+
+- [dofy/learn-vim](https://github.com/dofy/learn-vim)
 - [Vim 实操教程（Learn Vim）](https://github.com/dofy/learn-vim)
 - [vim环境设定：~/.vimrc(语法高亮等一些的设置)](http://blog.csdn.net/u013412790/article/details/51673333)
 - [无香花自开-Vim配置](https://blog.csdn.net/qdx411324962/article/details/49685151)
